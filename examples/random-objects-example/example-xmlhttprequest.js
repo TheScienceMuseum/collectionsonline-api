@@ -33,6 +33,7 @@ request.addEventListener('load', function (e) {
 
 // Get 5 random objects on display in the Science Museum
 request.open('GET', 'http://collection.sciencemuseum.org.uk/search/museum/science%20museum?random=5');
+// This url is equivalent to: http://collection.sciencemuseum.org.uk/search?museum=science%20museum&random=5
 
 request.setRequestHeader('accept', 'application/json');
 
