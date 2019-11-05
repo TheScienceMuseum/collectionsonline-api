@@ -89,7 +89,7 @@ GET /search?q=Charles&page[number]=3&page[size]=1 HTTP/1.1
         "score": 0.076713204 // Relevance of result
       },
       "links": {
-        "self": "http://collection.sciencemuseum.org.uk/people/cp22969" // Link to this resource
+        "self": "https://collection.sciencemuseumgroup.org.uk/people/cp22969" // Link to this resource
       }
     }
   ],
@@ -117,21 +117,21 @@ GET /search?q=Charles&page[number]=3&page[size]=1 HTTP/1.1
     }
   },
   "links": {
-    "first": "http://collection.sciencemuseum.org.uk/search?q=Charles&page[number]=0&page[size]=1",
-    "last": "http://collection.sciencemuseum.org.uk/search?q=Charles&page[number]=8&page[size]=1",
-    "prev": "http://collection.sciencemuseum.org.uk/search?q=Charles&page[number]=2&page[size]=1",
-    "next": "http://collection.sciencemuseum.org.uk/search?q=Charles&page[number]=4&page[size]=1"
+    "first": "https://collection.sciencemuseumgroup.org.uk/search?q=Charles&page[number]=0&page[size]=1",
+    "last": "https://collection.sciencemuseumgroup.org.uk/search?q=Charles&page[number]=8&page[size]=1",
+    "prev": "https://collection.sciencemuseumgroup.org.uk/search?q=Charles&page[number]=2&page[size]=1",
+    "next": "https://collection.sciencemuseumgroup.org.uk/search?q=Charles&page[number]=4&page[size]=1"
   }
 }
 ```
 
 Queries can be made using a query string style url, where all the filters are included as a query string:
 
-`http://collection.sciencemuseum.org.uk/search?places=France&museum=scm&images=true`
+`https://collection.sciencemuseumgroup.org.uk/search?places=France&museum=scm&images=true`
 
 or as a parameter string:
 
-`http://collection.sciencemuseum.org.uk/search/places/France/museum/scm/images`
+`https://collection.sciencemuseumgroup.org.uk/search/places/France/museum/scm/images`
 
 ---
 
@@ -143,13 +143,13 @@ or as a parameter string:
 
 If you know the id of the item you want (found in the data under `id`), you can retrieve just that item, eg:
 
-`http://collection.sciencemuseum.org.uk/objects/co26704`
+`https://collection.sciencemuseumgroup.org.uk/objects/co26704`
 
 ---
 
 ### Filter Categories
 
-Visit the site at http://collection.sciencemuseum.org.uk/search/ to get an idea of the Categories and other filters available
+Visit the site at https://collection.sciencemuseumgroup.org.uk/search/ to get an idea of the Categories and other filters available
 
 ### Examples
 
