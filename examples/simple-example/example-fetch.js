@@ -1,4 +1,4 @@
-var url = 'http://collection.sciencemuseum.org.uk/search/museum/Science%20Museum?page[number]=2';
+var url = 'https://collection.sciencemuseumgroup.org.uk/search/museum/Science%20Museum?page[number]=2';
 var opts = { headers: { Accept: 'application/json' } };
 
 fetch(url, opts)
