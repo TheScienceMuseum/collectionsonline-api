@@ -5,8 +5,8 @@ request.addEventListener('load', function (e) {
 });
 
 // Get All Art Objects from France
-request.open('GET', 'http://collection.sciencemuseum.org.uk/search/category/Art/places/France');
-// Url is equivalent to http://collection.sciencemuseum.org.uk/search?category=Art&places=France
+request.open('GET', 'https://collection.sciencemuseumgroup.org.uk/search/category/Art/places/France');
+// Url is equivalent to https://collection.sciencemuseumgroup.org.uk/search?category=Art&places=France
 
 request.setRequestHeader('accept', 'application/json');
 
